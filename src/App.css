@@ -28,6 +28,74 @@
   color: #61dafb;
 }
 
+.social {
+  margin-left: 50px;
+  margin-top: 50px;
+  max-width: 350px;
+  min-height: 250px;
+  border-radius: 7px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.button {
+  width: 80px;
+  padding: 12px;
+  background-color: red;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 255px;
+  border: none;
+}
+.image-upload {
+  width: 75px;
+  padding: 10px;
+  background-color: rgb(121, 117, 117);
+  border-radius: 6px;
+  color: #f3f3f3;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+ul {
+  position: absolute;
+  list-style: none;
+  top: 50px;
+  left: 25px;
+}
+
+.comment {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid rgb(224, 15, 15);
+}
+
+.comment:focus {
+  border: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
